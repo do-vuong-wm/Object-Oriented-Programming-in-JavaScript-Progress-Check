@@ -48,7 +48,7 @@
 
     fallout.prototype = Object.create(game.prototype);
     fallout.prototype.constructor = skyrim;
-    fallout.prototype.gamedesc = function(){ document.write('Skyrim object: ' + this.title + ', ' + this.pop + ', ' + this.graphic + ', ' + this.type + ', ' + this.review + '<br>')};
+    fallout.prototype.gamedesc = function(){ document.write('Fallout object: ' + this.title + ', ' + this.pop + ', ' + this.graphic + ', ' + this.type + ', ' + this.review + '<br>')};
 
     var witcher = function(title, population, graphic, type, review){
 
